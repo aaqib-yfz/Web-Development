@@ -1,0 +1,16 @@
+#red{
+    color:green;
+    background-color: yellow;
+}
+
+#blue{
+    color:red ;
+    background-color: yellow;
+}
+#purple{
+    color: purple;
+    background-color: yellow;
+}
+span,footer{
+    color: red;
+}

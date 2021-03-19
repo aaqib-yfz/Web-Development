@@ -1,0 +1,30 @@
+.container{
+    background-color: #D6EEFF;
+    box-sizing: border-box;
+    margin: 30px 350px;
+    width: 666px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+#h1{
+    font-family: 'Lobster', cursive;
+}
+.btn{
+    background-color: #C496B8;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 4px ;
+}
+.btn:hover{
+    background-color: #F56AB2;
+}
+a{
+    color: black;
+    background-color: #C496B8;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 4px ;
+    text-decoration: none;
+}

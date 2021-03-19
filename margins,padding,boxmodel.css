@@ -1,0 +1,9 @@
+.container{
+    background-color:cornsilk;
+    border: 3px solid black;
+    padding: 34px 19px;
+    margin: 13px  18px;
+    border-radius: 23px;
+    width: 533px;
+    box-sizing: border-box;
+}

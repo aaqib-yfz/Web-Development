@@ -1,0 +1,27 @@
+.navbar li{
+    color:white;
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar{
+    background-color: black;
+    border: 1px black;
+    border-radius: 30px;
+    
+}
+#search{
+    color: rgb(12, 11, 11);
+    margin-left: 693px;
+    border: 2px solid white;
+    border-radius: 14px;
+    margin-top: 10px;
+
+}
+.navbar li:hover{
+     color: red;
+    
+}

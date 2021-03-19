@@ -1,0 +1,22 @@
+/*  <!-- This file also include border,background along color --> */
+#aaqib{
+    font-size: 30px;
+    color: aqua;
+    border: 1px solid black;
+    background-color: indigo;
+}
+#anfal{
+    font-size: 140px;
+    color: red;
+    border: 1px solid black;
+    background-size: 130px;
+    background-position-x: 40px;
+    background-color: indigo;
+    background-image: url(aaqib.jpg);
+}
+#aizaz{
+    font-size: 30px;
+    color: green;
+    background-color: indigo;
+    border: 1px solid black;
+}

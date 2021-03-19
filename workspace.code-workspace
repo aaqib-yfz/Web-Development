@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\.vscode"
+		},
+		{
+			"path": "..\\1st_semester"
+		},
+		{
+			"path": "..\\2nd_semester"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "2nd_semester",
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
+}
