@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=website_login.css>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Login Page</title>
+    <style>
+    .bg{
+        background-image:url(pexels-scott-webb-305821.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+    
+    }
+
+    body, html{
+    height: 100%;
+    }
+
+    .credentials{
+    
+    margin-top: 275px;
+    margin-left: 260px;
+    margin-right: 819px;
+    padding-left: 41px;
+    padding-top: 14px;
+    padding-bottom: -41px;
+    background-color: white;
+    border: 1px;
+    border-radius: 20px;
+    
+}
+#login{
+    color: cornsilk;
+    background-color: rgb(71, 226, 71);
+    text-decoration: none;
+    border: 1px black;
+    padding: 15px;
+    width: 177px;
+}
+#login:hover{
+    background-color: rgb(2, 71, 2);
+
+}
+#name{
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+}
+
+#password{
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+}
+
+#inputname{
+    border: none;
+    width:100px;
+    background-color: thistle;
+    
+    
+}
+
+
+
+</style>
+</head>
+<body>
+    <div class="bg">
+    <header>
+        <nav class="navbar"> 
+        <ul>
+                <li>Home</li>
+                <li>Contact Us</li>
+                <li>Read More</li>
+                <li>About Us</li>
+                <div id="class">
+                <input type="text" name="Search" id="search" placeholder="Search">
+                </div>
+        </ul>
+        </nav>
+    </header>
+
+    <form  class="credentials"  action="backend.php">
+    <h2 style="font-family: 'Dancing Script' ;">Login</h2>
+
+    <div id="name">
+    Name 
+    </div>
+    <div id="inputname"> 
+    <input  type="text" placeholder="Enter Text"> 
+    </div>
+    <br> 
+
+    <div  id="password"> Password </div>
+    <div >
+    <input type="text" placeholder="Enter Text">
+    </div>
+    <br>
+
+    <div> <button id="login">Login</button></div>
+    <br>
+    <br>
+    </form>  
+</div>
+</body> 
+</html>
