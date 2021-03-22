@@ -11,6 +11,8 @@
     background-color: black;
     border: 1px black;
     border-radius: 30px;
+    margin-bottom: -16px;
+    margin-top: -16px;
     
 }
 #search{
@@ -23,5 +25,6 @@
 }
 .navbar li:hover{
      color: red;
+
     
 }
