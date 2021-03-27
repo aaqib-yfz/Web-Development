@@ -8,47 +8,104 @@
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
     <title> Forms And Input Tags </title>
     <style>
-        .bg{
-            background-image: url(pexels-tirachard-kumtanom-733857.jpg);
-            background-position: center;
-            background-repeat:no-repeat;
-            background-size: cover;
-            height: 100%;
-        }
-        body,html{
-            height: 100%;
+    
+    .bg{
+    background-image: url(pexels-anete-lusina-6353833.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: -8px;
+    margin-right: -8px;
+    margin-left: -10px;
         }
 
-        #h1{ 
-    background-color: blanchedalmond;
-    padding-left: 8px;
-    margin: -8px;
-    width: 14%;
-    height: 17px;
-    padding-right: -51px;
-    margin-left: 49%;
-    padding-bottom: 22px;
+    body,html{
+    height: 100%;
+    }
+
+    .navbar li{
+    color:white;
+    float: left;
+    list-style: none;
+    margin: 13px 20px;
+    cursor: pointer;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar{
+    background-color: black;
+    border: 1px black;
+    border-radius: 5px;
+    margin-bottom: -16px;
+    margin-top: -16px;
+
+}
+#search{
+    color: rgb(12, 11, 11);
+    margin-left: 693px;
+    border: 2px solid white;
+    border-radius: 14px;
+    margin-top: 10px;
+
+}
+
+.navbar li:hover{
+    color: red;
+    
+}
+
+    .container{ 
+    padding-left: 3%;
+    background-color: white;
+    margin-top: 4px;
+    width: 15%;
+    margin-left: 255px;
+    padding-right: 1%;
+    padding-bottom: 19px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-top: 14px;        
+        }
+
+        #h1{   
     font-family: 'Dancing Script';
     font-weight: bold;
-    font-size: 195%;
-    color: rgb(7, 6, 7);
-    border: 1px solid black;
+    color: rgb(255 255 255);
+    padding-bottom: -16px;
+    background-color: #f13e3e;
+    width: -9px;
+    margin-right: -17px;
+    margin-left: -42px;
+    padding-left: 40px;
+    margin-top: -15px;
+    height: 49px;
+    border: 1px solid nlack;
+    border: 1px solid #f13e3e;
+    padding-bottom: 6px;
+    margin-bottom: 4px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    width: 223px;
     }
-        .container{
-            padding-left: 48%;
-            padding-top: 50px;
-        }
+
+
     #btn{
         border: none;
-        width: 33%;
+        width: 84%;
         padding-top: 5px;
         padding-bottom: 5px;
-        background-color: #85F9C4;
+        background-color: rgb(126, 245, 126);
     }
 
     #btn:hover{
-        border: 1px solid black;
-        background-color: #27C17B;
+        transition: 0.5s;
+        background-color: #53fd50;  
+    
     }
     .inputs{
     color: black;
@@ -59,6 +116,7 @@
     }
 
 .smlhead{
+    color: black;
     font-weight: bold;
 }
     </style>
@@ -66,18 +124,33 @@
 
 <body>
     <div class="bg">
+        <header>
+            <nav class="navbar"> 
+            <ul>
+                    <li>Home</li>
+                    <li>Contact Us</li>
+                    <li>Read More</li>
+                    <li>About Us</li>
+                    <div id="class">
+                    <input type="text" name="Search" id="search" placeholder="Search">
+                    </div>
+            </ul>
+            </nav>
+        </header>
+    <br>
+
     <div class="container">
+    <div id="h1" >
+    <h1>Admission Form</h1>
+    </div>
     <form action="backend.php"> 
-        
         <div> 
         <div class="smlhead">Name</div>  
         <input type="text" name=" My Name " class = "inputs" >
         </div>
-        <br>
 
         <div> 
-        <div class="smlhead">   R. No </div>
-        <input type="text"  class = "inputs">
+        <div class="smlhead">  
         </div>
         <br>
 
@@ -107,12 +180,11 @@
 
         <div>
         <div class="smlhead"> Check If Eligible : <input type="checkbox" name=" Eligible "> </div>  
-        
         </div>
         <br>
 
         <div>
-        <strong>Gender :</strong>  <span style="color: #466DFE;">Male</span>   <input type="radio" name=" My Gender " id=""> <span style="color:#FF24AC;">Female</span>  <input type="radio" name=" My Gender " id="">
+        <strong>  <style></style> Gender :</strong>  <span style="color: #466DFE;">Male</span>   <input type="radio" name=" My Gender " id=""> <span style="color:#FF24AC;">Female</span>  <input type="radio" name=" My Gender " id="">
         </div>
         <br>
 
